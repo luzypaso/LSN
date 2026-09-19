@@ -1,0 +1,90 @@
+
+
+*******************************************************************************
+Wed Mar 25 10:42:42 2026
+
+
+FIT:    data read from "Distanza.txt" using 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k            
+   0 3.0295073866e+01   0.00e+00  7.07e+00    1.000000e+00
+   3 4.0408521085e-02  -7.05e-05  7.07e-03    9.225983e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0404085
+rel. change during last iteration : -7.05335e-10
+
+degrees of freedom    (FIT_NDF)                        : 100
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0201019
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000404085
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 0.922598         +/- 0.0002829    (0.03066%)
+
+
+*******************************************************************************
+Mon Aug 17 15:48:36 2026
+
+
+FIT:    data read from "Distanza.txt" using 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = k * sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k            
+   0 3.9381493276e-02   0.00e+00  7.07e+00    1.000000e+00
+   2 3.9186055865e-02  -4.79e-02  7.07e-02    9.998033e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0391861
+rel. change during last iteration : -4.79375e-07
+
+degrees of freedom    (FIT_NDF)                        : 100
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0197955
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000391861
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 0.999803         +/- 0.0002786    (0.02786%)
+
+
+*******************************************************************************
+Mon Aug 17 15:49:08 2026
+
+
+FIT:    data read from "Distanza_c.txt" using 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = k * sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k            
+   0 3.9432056270e-02   0.00e+00  7.07e+00    9.998033e-01
+   3 2.3727724413e-02  -6.24e-08  7.07e-03    1.001567e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0237277
+rel. change during last iteration : -6.24356e-13
+
+degrees of freedom    (FIT_NDF)                        : 100
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0154038
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000237277
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 1.00157          +/- 0.0002168    (0.02164%)
